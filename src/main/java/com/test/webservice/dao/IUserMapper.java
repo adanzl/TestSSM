@@ -4,7 +4,7 @@ import com.test.webservice.model.UserBean;
 
 import java.util.List;
 
-public interface UserMapper {
+public interface IUserMapper {
     /**
      * 新增用戶
      */

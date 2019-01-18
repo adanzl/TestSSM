@@ -62,7 +62,7 @@
 
     <!--创建数据映射器，数据映射器必须为接口-->
     <bean id="userMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
-        <property name="mapperInterface" value="com.test.webservice.dao.UserMapper"/>
+        <property name="mapperInterface" value="com.test.webservice.dao.IUserMapper"/>
         <property name="sqlSessionFactory" ref="sqlSessionFactory"/>
     </bean>
 

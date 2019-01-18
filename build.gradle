@@ -25,17 +25,23 @@ dependencies {
     compile 'org.springframework.data:spring-data-redis:1.8.0.RELEASE'
     compile 'org.springframework:spring-orm:4.3.6.RELEASE'
     compile "mysql:mysql-connector-java:5.1.47"
-    compile "commons-dbcp:commons-dbcp:1.4"
 //=================>json jar<=================
     compile 'com.alibaba:fastjson:1.2.24'
     compile 'com.fasterxml.jackson.core:jackson-databind:2.7.3'
     compile 'com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.7.3'
 //=================>others<===================
     compile 'javax.servlet:javax.servlet-api:3.1.0'
-    compile 'jstl:jstl:1.2'
+    compile 'javax.servlet:jstl:1.2'
     compile 'joda-time:joda-time:2.9.7'
     compile 'org.apache.commons:commons-lang3:3.5'
+//  =================>log4j<==================
+    compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.2'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.2'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-slf4j-impl', version: '2.2'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-jcl', version: '2.2'
+    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.10'
     // quartz
     compile 'org.quartz-scheduler:quartz:2.2.2'
     compile group: 'commons-collections', name: 'commons-collections', version: '3.2.1'
+    compile 'com.google.guava:guava:27.0.1-jre'
 }

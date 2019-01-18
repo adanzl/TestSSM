@@ -1,6 +1,6 @@
 package com.test.webservice.controller;
 
-import com.test.webservice.dao.UserMapper;
+import com.test.webservice.dao.IUserMapper;
 import com.test.webservice.model.UserBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -15,7 +15,7 @@ import java.util.List;
 public class MainController {
 
     @Autowired
-    public UserMapper userMapper;
+    public IUserMapper userMapper;
 
     @RequestMapping
     public String myHello(Model model) {

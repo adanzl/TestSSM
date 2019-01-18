@@ -19,6 +19,6 @@
 
     </settings>
     <!--<mappers>-->
-        <!--<mapper resource="sqlmap/UserMapper.xml"/>-->
+        <!--<mapper resource="sqlmap/IUserMapper.xml"/>-->
     <!--</mappers>-->
 </configuration>
